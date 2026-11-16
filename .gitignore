@@ -1,0 +1,7 @@
+# Paper drafts and submission material kept beside the code (not part of the public artifact)
+pass*/
+
+# OS and Python
+.DS_Store
+__pycache__/
+*.pyc
