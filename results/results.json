@@ -1,0 +1,2252 @@
+[
+ {
+  "seed": 1,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 7,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 332,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5859999987478659,
+    "p95": 0.9259999842470279
+   },
+   "governed": {
+    "p50": 20.000000006348273,
+    "p95": 64.495000003717
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 13788,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 13788,
+    "silent_error_rate": 0.0002901073397156948,
+    "flagged_rate": 0.0
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 1,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 20,
+    "total": 20
+   },
+   "F2_orphan_reference": {
+    "contained": 25,
+    "total": 25
+   },
+   "F3_conflicting_values": {
+    "contained": 12,
+    "total": 15
+   },
+   "F4_stale_record": {
+    "contained": 15,
+    "total": 15
+   },
+   "F5_schema_violation": {
+    "contained": 10,
+    "total": 10
+   },
+   "F6_missing_mandatory": {
+    "contained": 14,
+    "total": 14
+   },
+   "F7_out_of_order": {
+    "contained": 15,
+    "total": 15
+   },
+   "F8_duplicate_delivery": {
+    "contained": 19,
+    "total": 19
+   }
+  },
+  "dup_detector_false_positives": 7,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 332,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5979999855298956,
+    "p95": 0.9319999776380428
+   },
+   "governed": {
+    "p50": 19.29799998379167,
+    "p95": 60.76300002177959
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 13871,
+    "silent_error_rate": 0.011823228318073678,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 13846,
+    "silent_error_rate": 0.003538928210313448,
+    "flagged_rate": 0.013289036544850499
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 32,
+    "deferred": 0,
+    "wrong_action_rate": 0.8,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.8,
+    "partial_item_error_rate": 0.011746280344557557
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 1,
+    "deferred": 36,
+    "wrong_action_rate": 0.025,
+    "deferred_rate": 0.9,
+    "partial_wrong_action_rate": 0.35,
+    "partial_item_error_rate": 0.0019060585432266847
+   }
+  }
+ },
+ {
+  "seed": 1,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 53,
+    "total": 53
+   },
+   "F2_orphan_reference": {
+    "contained": 63,
+    "total": 63
+   },
+   "F3_conflicting_values": {
+    "contained": 50,
+    "total": 68
+   },
+   "F4_stale_record": {
+    "contained": 47,
+    "total": 47
+   },
+   "F5_schema_violation": {
+    "contained": 40,
+    "total": 40
+   },
+   "F6_missing_mandatory": {
+    "contained": 32,
+    "total": 32
+   },
+   "F7_out_of_order": {
+    "contained": 37,
+    "total": 37
+   },
+   "F8_duplicate_delivery": {
+    "contained": 59,
+    "total": 59
+   }
+  },
+  "dup_detector_false_positives": 5,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 332,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5809999947814504,
+    "p95": 0.8709999974598759
+   },
+   "governed": {
+    "p50": 19.187000020792766,
+    "p95": 59.50500002427361
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 13965,
+    "silent_error_rate": 0.047619047619047616,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14167,
+    "silent_error_rate": 0.006988070868920731,
+    "flagged_rate": 0.041293146043622504
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 40,
+    "deferred": 0,
+    "wrong_action_rate": 1.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 1.0,
+    "partial_item_error_rate": 0.04642116182572614
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 39,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.975,
+    "partial_wrong_action_rate": 0.725,
+    "partial_item_error_rate": 0.00837424198671672
+   }
+  }
+ },
+ {
+  "seed": 2,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 313,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6079999934627267,
+    "p95": 0.9640000371291535
+   },
+   "governed": {
+    "p50": 19.652999981190078,
+    "p95": 62.16399998493216
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15842,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15842,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 2,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 18,
+    "total": 18
+   },
+   "F2_orphan_reference": {
+    "contained": 18,
+    "total": 18
+   },
+   "F3_conflicting_values": {
+    "contained": 13,
+    "total": 15
+   },
+   "F4_stale_record": {
+    "contained": 21,
+    "total": 21
+   },
+   "F5_schema_violation": {
+    "contained": 18,
+    "total": 18
+   },
+   "F6_missing_mandatory": {
+    "contained": 17,
+    "total": 17
+   },
+   "F7_out_of_order": {
+    "contained": 9,
+    "total": 9
+   },
+   "F8_duplicate_delivery": {
+    "contained": 21,
+    "total": 21
+   }
+  },
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 313,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6289999987529882,
+    "p95": 1.1000000199601345
+   },
+   "governed": {
+    "p50": 19.484999995711405,
+    "p95": 60.003999976743216
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15870,
+    "silent_error_rate": 0.010775047258979206,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 16022,
+    "silent_error_rate": 0.0018100112345524903,
+    "flagged_rate": 0.018037698165023094
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 37,
+    "deferred": 0,
+    "wrong_action_rate": 0.925,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.925,
+    "partial_item_error_rate": 0.009134948096885814
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 38,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.95,
+    "partial_wrong_action_rate": 0.025,
+    "partial_item_error_rate": 0.00014452955629426219
+   }
+  }
+ },
+ {
+  "seed": 2,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 81,
+    "total": 81
+   },
+   "F2_orphan_reference": {
+    "contained": 51,
+    "total": 51
+   },
+   "F3_conflicting_values": {
+    "contained": 40,
+    "total": 63
+   },
+   "F4_stale_record": {
+    "contained": 43,
+    "total": 43
+   },
+   "F5_schema_violation": {
+    "contained": 49,
+    "total": 49
+   },
+   "F6_missing_mandatory": {
+    "contained": 30,
+    "total": 30
+   },
+   "F7_out_of_order": {
+    "contained": 36,
+    "total": 36
+   },
+   "F8_duplicate_delivery": {
+    "contained": 59,
+    "total": 59
+   }
+  },
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 313,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5759999908150348,
+    "p95": 0.8559999855606293
+   },
+   "governed": {
+    "p50": 19.3770000009863,
+    "p95": 60.015000030944066
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 16050,
+    "silent_error_rate": 0.04623052959501558,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 16325,
+    "silent_error_rate": 0.009372128637059725,
+    "flagged_rate": 0.035834609494640124
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 40,
+    "deferred": 0,
+    "wrong_action_rate": 1.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 1.0,
+    "partial_item_error_rate": 0.04632040564615596
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.8,
+    "partial_item_error_rate": 0.009138785625774474
+   }
+  }
+ },
+ {
+  "seed": 3,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 301,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6429999643842166,
+    "p95": 1.0019999763244414
+   },
+   "governed": {
+    "p50": 20.43799997863971,
+    "p95": 64.30600001294806
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15612,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15612,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 3,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 16,
+    "total": 16
+   },
+   "F2_orphan_reference": {
+    "contained": 24,
+    "total": 24
+   },
+   "F3_conflicting_values": {
+    "contained": 10,
+    "total": 15
+   },
+   "F4_stale_record": {
+    "contained": 19,
+    "total": 19
+   },
+   "F5_schema_violation": {
+    "contained": 13,
+    "total": 13
+   },
+   "F6_missing_mandatory": {
+    "contained": 22,
+    "total": 22
+   },
+   "F7_out_of_order": {
+    "contained": 12,
+    "total": 12
+   },
+   "F8_duplicate_delivery": {
+    "contained": 14,
+    "total": 14
+   }
+  },
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 301,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.606000014613528,
+    "p95": 0.9569999974701204
+   },
+   "governed": {
+    "p50": 19.67200000763114,
+    "p95": 64.68999998787694
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15679,
+    "silent_error_rate": 0.016200012755915556,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15778,
+    "silent_error_rate": 0.0032323488401571807,
+    "flagged_rate": 0.01685891748003549
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 38,
+    "deferred": 0,
+    "wrong_action_rate": 0.95,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.95,
+    "partial_item_error_rate": 0.015404699738903394
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 1,
+    "deferred": 37,
+    "wrong_action_rate": 0.025,
+    "deferred_rate": 0.925,
+    "partial_wrong_action_rate": 0.25,
+    "partial_item_error_rate": 0.0016359918200408998
+   }
+  }
+ },
+ {
+  "seed": 3,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 68,
+    "total": 68
+   },
+   "F2_orphan_reference": {
+    "contained": 69,
+    "total": 69
+   },
+   "F3_conflicting_values": {
+    "contained": 32,
+    "total": 55
+   },
+   "F4_stale_record": {
+    "contained": 46,
+    "total": 46
+   },
+   "F5_schema_violation": {
+    "contained": 38,
+    "total": 38
+   },
+   "F6_missing_mandatory": {
+    "contained": 35,
+    "total": 35
+   },
+   "F7_out_of_order": {
+    "contained": 38,
+    "total": 38
+   },
+   "F8_duplicate_delivery": {
+    "contained": 57,
+    "total": 57
+   }
+  },
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 301,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.66100000140068,
+    "p95": 1.079000014669873
+   },
+   "governed": {
+    "p50": 19.86600000236649,
+    "p95": 63.45699995335963
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15869,
+    "silent_error_rate": 0.04915243556619825,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 16122,
+    "silent_error_rate": 0.011785138320307654,
+    "flagged_rate": 0.043232849522391766
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 39,
+    "deferred": 0,
+    "wrong_action_rate": 0.975,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.975,
+    "partial_item_error_rate": 0.04911919763404912
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 1,
+    "deferred": 38,
+    "wrong_action_rate": 0.025,
+    "deferred_rate": 0.95,
+    "partial_wrong_action_rate": 0.9,
+    "partial_item_error_rate": 0.010601219866395586
+   }
+  }
+ },
+ {
+  "seed": 4,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 8,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 326,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5809999947814504,
+    "p95": 0.8750000120016921
+   },
+   "governed": {
+    "p50": 19.99099998784004,
+    "p95": 63.43199999037097
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 17634,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 17634,
+    "silent_error_rate": 0.0005670863105364637,
+    "flagged_rate": 0.0020982193489849153
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 19,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.475,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 4,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 29,
+    "total": 29
+   },
+   "F2_orphan_reference": {
+    "contained": 19,
+    "total": 19
+   },
+   "F3_conflicting_values": {
+    "contained": 6,
+    "total": 11
+   },
+   "F4_stale_record": {
+    "contained": 20,
+    "total": 20
+   },
+   "F5_schema_violation": {
+    "contained": 12,
+    "total": 12
+   },
+   "F6_missing_mandatory": {
+    "contained": 21,
+    "total": 21
+   },
+   "F7_out_of_order": {
+    "contained": 4,
+    "total": 4
+   },
+   "F8_duplicate_delivery": {
+    "contained": 18,
+    "total": 18
+   }
+  },
+  "dup_detector_false_positives": 8,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 326,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5599999894911889,
+    "p95": 0.8310000225719705
+   },
+   "governed": {
+    "p50": 19.46600002611376,
+    "p95": 59.30700001499645
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 17684,
+    "silent_error_rate": 0.00802985749830355,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 17815,
+    "silent_error_rate": 0.0025259612685938817,
+    "flagged_rate": 0.01925343811394892
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 30,
+    "deferred": 0,
+    "wrong_action_rate": 0.75,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.75,
+    "partial_item_error_rate": 0.007647528820910855
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.275,
+    "partial_item_error_rate": 0.0015632515632515633
+   }
+  }
+ },
+ {
+  "seed": 4,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 63,
+    "total": 63
+   },
+   "F2_orphan_reference": {
+    "contained": 57,
+    "total": 57
+   },
+   "F3_conflicting_values": {
+    "contained": 25,
+    "total": 46
+   },
+   "F4_stale_record": {
+    "contained": 46,
+    "total": 46
+   },
+   "F5_schema_violation": {
+    "contained": 46,
+    "total": 46
+   },
+   "F6_missing_mandatory": {
+    "contained": 38,
+    "total": 38
+   },
+   "F7_out_of_order": {
+    "contained": 52,
+    "total": 52
+   },
+   "F8_duplicate_delivery": {
+    "contained": 56,
+    "total": 56
+   }
+  },
+  "dup_detector_false_positives": 8,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 326,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6189999908201571,
+    "p95": 0.959000033162738
+   },
+   "governed": {
+    "p50": 19.597000004978327,
+    "p95": 62.26900001138347
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 17843,
+    "silent_error_rate": 0.04012778120271255,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 18117,
+    "silent_error_rate": 0.00662361318099023,
+    "flagged_rate": 0.039244908097367116
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 39,
+    "deferred": 0,
+    "wrong_action_rate": 0.975,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.975,
+    "partial_item_error_rate": 0.04080479258505708
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 39,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.975,
+    "partial_wrong_action_rate": 0.675,
+    "partial_item_error_rate": 0.007413087934560327
+   }
+  }
+ },
+ {
+  "seed": 5,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 344,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5509999709829572,
+    "p95": 0.8119999961309077
+   },
+   "governed": {
+    "p50": 19.67499997590494,
+    "p95": 62.04700002854224
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14581,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14581,
+    "silent_error_rate": 0.00013716480351141897,
+    "flagged_rate": 0.0007544064193128043
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 7,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.175,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 5,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 15,
+    "total": 15
+   },
+   "F2_orphan_reference": {
+    "contained": 20,
+    "total": 20
+   },
+   "F3_conflicting_values": {
+    "contained": 26,
+    "total": 33
+   },
+   "F4_stale_record": {
+    "contained": 20,
+    "total": 20
+   },
+   "F5_schema_violation": {
+    "contained": 13,
+    "total": 13
+   },
+   "F6_missing_mandatory": {
+    "contained": 8,
+    "total": 8
+   },
+   "F7_out_of_order": {
+    "contained": 11,
+    "total": 11
+   },
+   "F8_duplicate_delivery": {
+    "contained": 14,
+    "total": 14
+   }
+  },
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 344,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6189999908201571,
+    "p95": 0.9409999961462745
+   },
+   "governed": {
+    "p50": 19.55900000893962,
+    "p95": 60.97199997157077
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14702,
+    "silent_error_rate": 0.017208543055366617,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14761,
+    "silent_error_rate": 0.003726034821489059,
+    "flagged_rate": 0.012329787954745614
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 37,
+    "deferred": 0,
+    "wrong_action_rate": 0.925,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.925,
+    "partial_item_error_rate": 0.015608875128998967
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 37,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.925,
+    "partial_wrong_action_rate": 0.425,
+    "partial_item_error_rate": 0.002404809619238477
+   }
+  }
+ },
+ {
+  "seed": 5,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 74,
+    "total": 74
+   },
+   "F2_orphan_reference": {
+    "contained": 54,
+    "total": 54
+   },
+   "F3_conflicting_values": {
+    "contained": 42,
+    "total": 57
+   },
+   "F4_stale_record": {
+    "contained": 44,
+    "total": 44
+   },
+   "F5_schema_violation": {
+    "contained": 40,
+    "total": 40
+   },
+   "F6_missing_mandatory": {
+    "contained": 50,
+    "total": 50
+   },
+   "F7_out_of_order": {
+    "contained": 33,
+    "total": 33
+   },
+   "F8_duplicate_delivery": {
+    "contained": 51,
+    "total": 51
+   }
+  },
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 344,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5759999908150348,
+    "p95": 0.8920000027501374
+   },
+   "governed": {
+    "p50": 19.507999979850865,
+    "p95": 59.38100002822466
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14672,
+    "silent_error_rate": 0.02719465648854962,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14979,
+    "silent_error_rate": 0.005874891514787369,
+    "flagged_rate": 0.03538286935042393
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 40,
+    "deferred": 0,
+    "wrong_action_rate": 1.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 1.0,
+    "partial_item_error_rate": 0.026999095724066658
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 1,
+    "deferred": 39,
+    "wrong_action_rate": 0.025,
+    "deferred_rate": 0.975,
+    "partial_wrong_action_rate": 0.55,
+    "partial_item_error_rate": 0.005197359179660065
+   }
+  }
+ },
+ {
+  "seed": 6,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 1,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 365,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5419999524747254,
+    "p95": 0.7699999855503847
+   },
+   "governed": {
+    "p50": 19.197999961306778,
+    "p95": 57.47299996983202
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14742,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14742,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.000542667209333876
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 4,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.1,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 6,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 18,
+    "total": 18
+   },
+   "F2_orphan_reference": {
+    "contained": 15,
+    "total": 15
+   },
+   "F3_conflicting_values": {
+    "contained": 14,
+    "total": 22
+   },
+   "F4_stale_record": {
+    "contained": 19,
+    "total": 19
+   },
+   "F5_schema_violation": {
+    "contained": 14,
+    "total": 14
+   },
+   "F6_missing_mandatory": {
+    "contained": 14,
+    "total": 14
+   },
+   "F7_out_of_order": {
+    "contained": 9,
+    "total": 9
+   },
+   "F8_duplicate_delivery": {
+    "contained": 23,
+    "total": 23
+   }
+  },
+  "dup_detector_false_positives": 1,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 365,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5640000040330051,
+    "p95": 0.8279999974547536
+   },
+   "governed": {
+    "p50": 19.39899999570116,
+    "p95": 58.05300003203229
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14773,
+    "silent_error_rate": 0.014147431124348473,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14940,
+    "silent_error_rate": 0.0030120481927710845,
+    "flagged_rate": 0.01934404283801874
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 37,
+    "deferred": 0,
+    "wrong_action_rate": 0.925,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.925,
+    "partial_item_error_rate": 0.012744593202883625
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.55,
+    "partial_item_error_rate": 0.003817798841495524
+   }
+  }
+ },
+ {
+  "seed": 6,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 64,
+    "total": 64
+   },
+   "F2_orphan_reference": {
+    "contained": 59,
+    "total": 59
+   },
+   "F3_conflicting_values": {
+    "contained": 41,
+    "total": 65
+   },
+   "F4_stale_record": {
+    "contained": 41,
+    "total": 41
+   },
+   "F5_schema_violation": {
+    "contained": 39,
+    "total": 39
+   },
+   "F6_missing_mandatory": {
+    "contained": 48,
+    "total": 48
+   },
+   "F7_out_of_order": {
+    "contained": 37,
+    "total": 37
+   },
+   "F8_duplicate_delivery": {
+    "contained": 51,
+    "total": 51
+   }
+  },
+  "dup_detector_false_positives": 1,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 365,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6239999947865726,
+    "p95": 0.974999977643165
+   },
+   "governed": {
+    "p50": 19.863000034092693,
+    "p95": 58.58599996599878
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14943,
+    "silent_error_rate": 0.04356554908652881,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15350,
+    "silent_error_rate": 0.011530944625407167,
+    "flagged_rate": 0.05745928338762215
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 39,
+    "deferred": 0,
+    "wrong_action_rate": 0.975,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.975,
+    "partial_item_error_rate": 0.040748758436266394
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.825,
+    "partial_item_error_rate": 0.011739130434782608
+   }
+  }
+ },
+ {
+  "seed": 7,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 1,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 333,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5840000198986672,
+    "p95": 0.8569999749852286
+   },
+   "governed": {
+    "p50": 19.25000003666355,
+    "p95": 58.25299996331523
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15109,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15109,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 7,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 31,
+    "total": 31
+   },
+   "F2_orphan_reference": {
+    "contained": 15,
+    "total": 15
+   },
+   "F3_conflicting_values": {
+    "contained": 8,
+    "total": 13
+   },
+   "F4_stale_record": {
+    "contained": 16,
+    "total": 16
+   },
+   "F5_schema_violation": {
+    "contained": 15,
+    "total": 15
+   },
+   "F6_missing_mandatory": {
+    "contained": 11,
+    "total": 11
+   },
+   "F7_out_of_order": {
+    "contained": 14,
+    "total": 14
+   },
+   "F8_duplicate_delivery": {
+    "contained": 19,
+    "total": 19
+   }
+  },
+  "dup_detector_false_positives": 1,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 333,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5520000172509754,
+    "p95": 0.8029999776226759
+   },
+   "governed": {
+    "p50": 19.199000007574796,
+    "p95": 58.11900001617687
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15185,
+    "silent_error_rate": 0.015212380638788279,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15302,
+    "silent_error_rate": 0.004509214481767089,
+    "flagged_rate": 0.01431185465952163
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 32,
+    "deferred": 0,
+    "wrong_action_rate": 0.8,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.8,
+    "partial_item_error_rate": 0.012342330123423301
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 3,
+    "deferred": 34,
+    "wrong_action_rate": 0.075,
+    "deferred_rate": 0.85,
+    "partial_wrong_action_rate": 0.45,
+    "partial_item_error_rate": 0.0028252578047746855
+   }
+  }
+ },
+ {
+  "seed": 7,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 47,
+    "total": 47
+   },
+   "F2_orphan_reference": {
+    "contained": 55,
+    "total": 55
+   },
+   "F3_conflicting_values": {
+    "contained": 35,
+    "total": 56
+   },
+   "F4_stale_record": {
+    "contained": 44,
+    "total": 44
+   },
+   "F5_schema_violation": {
+    "contained": 47,
+    "total": 47
+   },
+   "F6_missing_mandatory": {
+    "contained": 44,
+    "total": 44
+   },
+   "F7_out_of_order": {
+    "contained": 36,
+    "total": 36
+   },
+   "F8_duplicate_delivery": {
+    "contained": 74,
+    "total": 74
+   }
+  },
+  "dup_detector_false_positives": 1,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 333,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6020000000717118,
+    "p95": 0.907000014649384
+   },
+   "governed": {
+    "p50": 19.21500000889864,
+    "p95": 57.59300000818257
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 15202,
+    "silent_error_rate": 0.0290093408762005,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15406,
+    "silent_error_rate": 0.004348954952615864,
+    "flagged_rate": 0.033233805011034664
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 38,
+    "deferred": 0,
+    "wrong_action_rate": 0.95,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.95,
+    "partial_item_error_rate": 0.02644426362896664
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.25,
+    "partial_item_error_rate": 0.0018096817976172522
+   }
+  }
+ },
+ {
+  "seed": 8,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 287,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5949999604126788,
+    "p95": 0.9629999908611353
+   },
+   "governed": {
+    "p50": 20.579000022280525,
+    "p95": 62.785000011444936
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14370,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14370,
+    "silent_error_rate": 0.0002783576896311761,
+    "flagged_rate": 6.958942240779402e-05
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 1,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.025,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 8,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 18,
+    "total": 18
+   },
+   "F2_orphan_reference": {
+    "contained": 19,
+    "total": 19
+   },
+   "F3_conflicting_values": {
+    "contained": 13,
+    "total": 21
+   },
+   "F4_stale_record": {
+    "contained": 17,
+    "total": 17
+   },
+   "F5_schema_violation": {
+    "contained": 15,
+    "total": 15
+   },
+   "F6_missing_mandatory": {
+    "contained": 7,
+    "total": 7
+   },
+   "F7_out_of_order": {
+    "contained": 16,
+    "total": 16
+   },
+   "F8_duplicate_delivery": {
+    "contained": 22,
+    "total": 22
+   }
+  },
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 287,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5949999604126788,
+    "p95": 0.9050000358001853
+   },
+   "governed": {
+    "p50": 19.698000016887818,
+    "p95": 57.13899997772387
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14420,
+    "silent_error_rate": 0.01130374479889043,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14547,
+    "silent_error_rate": 0.007286725785385303,
+    "flagged_rate": 0.01161751563896336
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 29,
+    "deferred": 0,
+    "wrong_action_rate": 0.725,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.725,
+    "partial_item_error_rate": 0.008620689655172414
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 3,
+    "deferred": 34,
+    "wrong_action_rate": 0.075,
+    "deferred_rate": 0.85,
+    "partial_wrong_action_rate": 0.525,
+    "partial_item_error_rate": 0.004447079750963534
+   }
+  }
+ },
+ {
+  "seed": 8,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 65,
+    "total": 65
+   },
+   "F2_orphan_reference": {
+    "contained": 69,
+    "total": 69
+   },
+   "F3_conflicting_values": {
+    "contained": 39,
+    "total": 55
+   },
+   "F4_stale_record": {
+    "contained": 54,
+    "total": 54
+   },
+   "F5_schema_violation": {
+    "contained": 33,
+    "total": 33
+   },
+   "F6_missing_mandatory": {
+    "contained": 38,
+    "total": 38
+   },
+   "F7_out_of_order": {
+    "contained": 34,
+    "total": 34
+   },
+   "F8_duplicate_delivery": {
+    "contained": 57,
+    "total": 57
+   }
+  },
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 287,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6260000304791902,
+    "p95": 0.9890000001178123
+   },
+   "governed": {
+    "p50": 19.875000020874722,
+    "p95": 57.315999981710775
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14493,
+    "silent_error_rate": 0.036362381839508726,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14736,
+    "silent_error_rate": 0.006446796959826276,
+    "flagged_rate": 0.035423452768729644
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 40,
+    "deferred": 0,
+    "wrong_action_rate": 1.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 1.0,
+    "partial_item_error_rate": 0.03468455609477591
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.55,
+    "partial_item_error_rate": 0.004947334822853495
+   }
+  }
+ },
+ {
+  "seed": 9,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 330,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6270000199037895,
+    "p95": 0.9729999987939664
+   },
+   "governed": {
+    "p50": 19.893999990472366,
+    "p95": 63.58799998906761
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14738,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14738,
+    "silent_error_rate": 6.785181164337088e-05,
+    "flagged_rate": 0.0
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 9,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 23,
+    "total": 23
+   },
+   "F2_orphan_reference": {
+    "contained": 20,
+    "total": 20
+   },
+   "F3_conflicting_values": {
+    "contained": 21,
+    "total": 28
+   },
+   "F4_stale_record": {
+    "contained": 13,
+    "total": 13
+   },
+   "F5_schema_violation": {
+    "contained": 9,
+    "total": 9
+   },
+   "F6_missing_mandatory": {
+    "contained": 14,
+    "total": 14
+   },
+   "F7_out_of_order": {
+    "contained": 9,
+    "total": 9
+   },
+   "F8_duplicate_delivery": {
+    "contained": 18,
+    "total": 18
+   }
+  },
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 330,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.5480000027091592,
+    "p95": 0.8200000252145401
+   },
+   "governed": {
+    "p50": 19.63900001555885,
+    "p95": 57.999000034669734
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14760,
+    "silent_error_rate": 0.008672086720867209,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 14886,
+    "silent_error_rate": 0.0016794303372296116,
+    "flagged_rate": 0.015249227462044875
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 28,
+    "deferred": 0,
+    "wrong_action_rate": 0.7,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.7,
+    "partial_item_error_rate": 0.00680947652149241
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 1,
+    "deferred": 35,
+    "wrong_action_rate": 0.025,
+    "deferred_rate": 0.875,
+    "partial_wrong_action_rate": 0.1,
+    "partial_item_error_rate": 0.0005817335660267597
+   }
+  }
+ },
+ {
+  "seed": 9,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 48,
+    "total": 48
+   },
+   "F2_orphan_reference": {
+    "contained": 71,
+    "total": 71
+   },
+   "F3_conflicting_values": {
+    "contained": 42,
+    "total": 59
+   },
+   "F4_stale_record": {
+    "contained": 50,
+    "total": 50
+   },
+   "F5_schema_violation": {
+    "contained": 57,
+    "total": 57
+   },
+   "F6_missing_mandatory": {
+    "contained": 36,
+    "total": 36
+   },
+   "F7_out_of_order": {
+    "contained": 29,
+    "total": 29
+   },
+   "F8_duplicate_delivery": {
+    "contained": 54,
+    "total": 54
+   }
+  },
+  "dup_detector_false_positives": 2,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 330,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.624999984211172,
+    "p95": 0.9949999935088272
+   },
+   "governed": {
+    "p50": 19.65199999176548,
+    "p95": 57.8140000015992
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 14908,
+    "silent_error_rate": 0.03508183525623826,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 15484,
+    "silent_error_rate": 0.006006199948333764,
+    "flagged_rate": 0.057414104882459314
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 40,
+    "deferred": 0,
+    "wrong_action_rate": 1.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 1.0,
+    "partial_item_error_rate": 0.033974448968131406
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.575,
+    "partial_item_error_rate": 0.004985976939856653
+   }
+  }
+ },
+ {
+  "seed": 10,
+  "rate": 0.0,
+  "containment": {},
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 326,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6289999987529882,
+    "p95": 1.011000051676092
+   },
+   "governed": {
+    "p50": 20.741000014368183,
+    "p95": 75.55700000239085
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 16004,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 16004,
+    "silent_error_rate": 0.0,
+    "flagged_rate": 0.0
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 0,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.0,
+    "partial_item_error_rate": 0.0
+   }
+  }
+ },
+ {
+  "seed": 10,
+  "rate": 0.05,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 20,
+    "total": 20
+   },
+   "F2_orphan_reference": {
+    "contained": 14,
+    "total": 14
+   },
+   "F3_conflicting_values": {
+    "contained": 14,
+    "total": 23
+   },
+   "F4_stale_record": {
+    "contained": 14,
+    "total": 14
+   },
+   "F5_schema_violation": {
+    "contained": 11,
+    "total": 11
+   },
+   "F6_missing_mandatory": {
+    "contained": 13,
+    "total": 13
+   },
+   "F7_out_of_order": {
+    "contained": 10,
+    "total": 10
+   },
+   "F8_duplicate_delivery": {
+    "contained": 29,
+    "total": 29
+   }
+  },
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 326,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6359999815686024,
+    "p95": 0.9799999816095806
+   },
+   "governed": {
+    "p50": 19.914999995762628,
+    "p95": 58.613999954104656
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 16035,
+    "silent_error_rate": 0.011038353601496726,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 16145,
+    "silent_error_rate": 0.002663363270362341,
+    "flagged_rate": 0.016475689067822857
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 32,
+    "deferred": 0,
+    "wrong_action_rate": 0.8,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 0.8,
+    "partial_item_error_rate": 0.009549428379287156
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 39,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 0.975,
+    "partial_wrong_action_rate": 0.2,
+    "partial_item_error_rate": 0.001116227152225478
+   }
+  }
+ },
+ {
+  "seed": 10,
+  "rate": 0.15,
+  "containment": {
+   "F1_duplicate_entity": {
+    "contained": 59,
+    "total": 59
+   },
+   "F2_orphan_reference": {
+    "contained": 56,
+    "total": 56
+   },
+   "F3_conflicting_values": {
+    "contained": 41,
+    "total": 50
+   },
+   "F4_stale_record": {
+    "contained": 40,
+    "total": 40
+   },
+   "F5_schema_violation": {
+    "contained": 52,
+    "total": 52
+   },
+   "F6_missing_mandatory": {
+    "contained": 35,
+    "total": 35
+   },
+   "F7_out_of_order": {
+    "contained": 35,
+    "total": 35
+   },
+   "F8_duplicate_delivery": {
+    "contained": 76,
+    "total": 76
+   }
+  },
+  "dup_detector_false_positives": 3,
+  "replay_fidelity": true,
+  "dangling": {
+   "baseline": 326,
+   "governed": 0
+  },
+  "latency_us": {
+   "baseline": {
+    "p50": 0.6810000172663422,
+    "p95": 1.1000000199601345
+   },
+   "governed": {
+    "p50": 20.376999998461542,
+    "p95": 62.05099998624064
+   }
+  },
+  "c1": {
+   "baseline": {
+    "decisions": 16254,
+    "silent_error_rate": 0.04355850867478774,
+    "flagged_rate": 0.0
+   },
+   "governed": {
+    "decisions": 16711,
+    "silent_error_rate": 0.005265992460056251,
+    "flagged_rate": 0.05415594518580576
+   }
+  },
+  "c2": {
+   "baseline": {
+    "ops": 40,
+    "wrong_actions": 40,
+    "deferred": 0,
+    "wrong_action_rate": 1.0,
+    "deferred_rate": 0.0,
+    "partial_wrong_action_rate": 1.0,
+    "partial_item_error_rate": 0.04177164832250364
+   },
+   "governed": {
+    "ops": 40,
+    "wrong_actions": 0,
+    "deferred": 40,
+    "wrong_action_rate": 0.0,
+    "deferred_rate": 1.0,
+    "partial_wrong_action_rate": 0.525,
+    "partial_item_error_rate": 0.0036889479120554816
+   }
+  }
+ }
+]
